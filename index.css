@@ -1,0 +1,81 @@
+.doto-container {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around; 
+}
+.btn-class{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+.btn2-class{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+.span-1, .span-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-weight: bold;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 40px;
+}
+span{
+    font-family: Doto;
+    font-size: 100px;
+    color: red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.left-btn-class, .right-btn-class{
+    display: flex;
+    gap: 20px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}
+
+.left-btn2-class, .right-btn2-class{
+    display: flex;
+    gap: 20px;
+}
+
+.left-red{
+    background-color: transparent;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}

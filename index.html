@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>RED</h3>
+            </div>
+            <div>
+                <h3>BLUE</h3>
+            </div>
+        </div>
+        <div class="wrapper"> 
+            <div class="span-1">
+                <span id="red-team"></span>
+            </div>
+            <div class="span-2">
+                <span id="blue-team"></span>
+            </div>
+        </div>
+            
+        <div class="btn-class">    
+            <div class="left-btn-class">
+                <button onclick="addRed1()">+1</button>
+                <button onclick="addRed2()">+2</button>
+                <button onclick="addRed3()">+3</button>
+                </div>
+            <div class="right-btn-class">
+                <button onclick="addBlue1()">+1</button>
+                <button onclick="addBlue2()">+2</button>
+                <button onclick="addBlue3()">+3</button>
+                </div>
+       </div>
+          <div class="btn2-class">    
+            <div class="left-btn2-class">
+                <button class="left-red" onclick="resetRedScore()">RESET</button>
+                </div>
+            <div class="right-btn2-class">
+                <button class="left-red" onclick="resetBlueScore()">RESET</button>
+                </div>
+       </div>
+        <script src="index.js"></script>
+    </body>
+</html>
